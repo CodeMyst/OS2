@@ -11,7 +11,7 @@ void fib(int num) {
     int cur_num = num;
     int num_children = 0;
 
-    int pipe_input[num_children];
+    int pipe_input[2];
     int pipe_output;
 
     int res = 0;
